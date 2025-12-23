@@ -1,0 +1,91 @@
+# Allow search engines and AI bots to index the site
+User-agent: *
+Allow: /
+Allow: /blog/
+Allow: /projects/
+Allow: /notes/
+Allow: /skills/
+
+# Disallow contact page to prevent email harvesting
+Disallow: /contact/
+
+# Disallow images to prevent scraping
+Disallow: /images/
+
+# Disallow documents (includes security keys and resume)
+Disallow: /documents/
+
+# Common AI crawlers - block from contact and images
+User-agent: GPTBot
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+User-agent: ChatGPT-User
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+User-agent: CCBot
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+User-agent: anthropic-ai
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+User-agent: Claude-Web
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+User-agent: Google-Extended
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+# Allow Google, Bing, and other major search engines to index public pages
+User-agent: Googlebot
+Allow: /
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /contact/
+Disallow: /images/
+Disallow: /documents/
+
+# Sitemap location
+Sitemap: {{ .Site.BaseURL }}sitemap.xml
+
+
+#########################################
+
+#  88888888888a              a88888888888
+#  8         YI              IP         8
+#  8         `8,            ,8'         8
+#  8          8I            I8          8
+#  8          8I            I8          8
+#  888     O  8I            I8  O     888
+#    8        8I            I8        8
+#   ,8       ,8'            `8,       8,
+#  ,8'      ,8I              I8,      `8,
+# ,8'   O  ,8I'              `I8,  O   `8,
+# IP       dP'                `Yb       YI
+# 8'      d8'                  `8b      `8
+# 8       I8                    8I       8
+# 8,      I8,                  ,8I      ,8
+# Yb   O  `8b,                ,d8'  O   dP
+# `8,      `8b,              ,d8'      ,8'
+#  Yb       `Yba            adP'       dP
+#  `8b        `Yba,_    _,adP'        d8'
+#   `Yb,        `"YYbbddPP"'        ,dP'
+#    `Yba     O              O     adP'
+#      "Yba,                    ,adP"
+#        `"YbaaaaaaaaaaaaaaaaaadP"'
+#           `"YYba,      ,adPP"'
+#              `""YYbbddPP""'
