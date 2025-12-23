@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ctf on Manav Jain</title>
-    <link>https://yourwebsite.com/tags/ctf/</link>
+    <link>https://manavjain.com/tags/ctf/</link>
     <description>Recent content in Ctf on Manav Jain</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yourwebsite.com/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://manavjain.com/tags/ctf/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behind the Challenges: My experience as a CTF challenge creator</title>
-      <link>https://yourwebsite.com/blog/blog1/</link>
+      <link>https://manavjain.com/blog/blog1/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://yourwebsite.com/blog/blog1/</guid>
+      <guid>https://manavjain.com/blog/blog1/</guid>
       <description>&lt;p&gt;I was introduced to the concept of a &lt;em&gt;CTF&lt;/em&gt; during my Sophomore year in Systems Security (CY3740). This class was a practical take on security and had &amp;ldquo;challenges&amp;rdquo; as assignments. These challenges were certain tasks that we did and got a flag that you submitted for points. I found these challenges to be interesting, even though I was unable to do all of them, and they were engaging and my first real taste of &lt;em&gt;hacking&lt;/em&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
